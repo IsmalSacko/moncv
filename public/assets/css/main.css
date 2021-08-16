@@ -48,7 +48,9 @@ p {
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
   margin: 0px;
-  font-size: 14px;
+  font-size: 16px !important;
+  text-align: justify !important;
+  
 }
 
 ul, ol {
@@ -423,6 +425,9 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: none;
   position: relative;
 }
+.line-title a{
+  text-decoration: none;
+}
 
 .timeline li:last-child {
   padding: 0 20px 0px 30px;
@@ -746,11 +751,12 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #hero-area .contents p {
-  font-size: 30px;
+  font-size: 30px !important;
   color: #fff;
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 25px;
+  text-align: center !important;
 }
 
 #hero-area .contents .btn {
@@ -941,6 +947,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   font-size: 18px;
   text-transform: uppercase;
   color: #666;
+  text-decoration: none !important;
 }
 
 .services-item .services-content h3 a:hover {
