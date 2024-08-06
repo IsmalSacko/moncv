@@ -8,7 +8,8 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
-
+#/config/secrets/dev/dev.decrypt.private.ph
+p
 ###> symfony/phpunit-bridge ###
 .phpunit.result.cache
 /phpunit.xml
